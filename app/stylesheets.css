@@ -1,0 +1,8 @@
+.account{
+    font-weight: normal;
+    font-size:14px;
+}
+
+input[type=number]{
+    width: 50px;
+} 

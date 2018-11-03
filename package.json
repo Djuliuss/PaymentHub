@@ -1,0 +1,35 @@
+{
+  "name": "Payment Hub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/js/app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Djuliuss/DailyLimit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Djuliuss/DailyLimit/issues"
+  },
+  "homepage": "https://github.com/Djuliuss/DailyLimit#readme",
+  "devDependencies": {
+    "file-loader": "^2.0.0",
+    "truffle": "^4.1.13",
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.2",
+    "jquery": "^3.3.1",
+    "truffle-contract": "^3.0.6",
+    "web3": "^0.20.6"
+  }
+}

@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+    <title>Payments Hub</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="stylesheets.css">
+</head>
+
+
+<body>
+    <script src="js/app.js"></script>
+    <div id="status"></div>
+    <h3>Payment Hub Administrator</h3>
+    <div class="account"> Daily limit: <span id="dailyLimit">Loading...</span> ether</div>
+    <div class="account"> Set limit to <input name="setDailyLimit" type="number" placeholder="0" min="1" size="5" /> ether 
+     <button id="setDailyLimitBtn">Set</button> </div>
+     <div class="account">
+     Generate wallet for : 
+     <select id="walletHolderCreate">
+         <option value="Alice">Alice</option>
+         <option value="Bob">Bob</option>
+         <option value="Charlie">Charlie</option>
+         <option value="Dave">Dave</option>
+     </select>
+     <button id="createWalletBtn">Create</button>
+         <div class="account">
+    </div>
+    <div>
+    Whitelist <select id="whitelistThisWallet">
+        <option value="Alice">Alice</option>
+        <option value="Bob">Bob</option>
+        <option value="Charlie">Charlie</option>
+        <option value="Dave">Dave</option> 
+    </select> 's wallet
+    <button id="whitelistBtn">Whitelist</button>
+    </div> 
+    <div>
+    Skip 24 hours <button id="skipBtn">Skip</button>
+    </div>
+    <h4>Alice</h4>
+     <div class="account"> Balance account: <span id="balanceAlice">Loading...</span> ether</div>
+     <div class="account">Send <input name="amountAliceSend" type="number" placeholder="0" min="1" /> ether to 
+            <select id="sendAliceTo">
+            <option value="Alice">Alice</option>
+            <option value="Bob">Bob</option>
+            <option value="Charlie">Charlie</option>
+            <option value="Dave">Dave</option>
+            </select>'s wallet
+            <button id="sendAliceBtn">Send</button>
+    </div>
+     <div class="account"> Wallet: <span id="walletAliceCreated">No wallet yet</span> </div>
+     <div class="account"> Daily Payments: <span id="dailyPaymentsAlice"> </span> </div>
+     <div class="account"> Whitelisted? <span id="whitelistedAlice"> </span> </div>
+     <div class="account"> Withdraw <input name="amountAliceWithdraw" type="number" placeholder="0" min="1" /> ether
+     <button id="withdrawAliceBtn">Withdraw</button></div>
+     <h4>Bob</h4>
+     <div class="account"> Balance account: <span id="balanceBob">Loading...</span> ether</div>
+     <div class=account>Send <input name="amountBobSend" type="number" placeholder="0" min="1" /> ether to 
+        <select id="sendBobTo">
+        <option value="Alice">Alice</option>
+        <option value="Bob">Bob</option>
+        <option value="Charlie">Charlie</option>
+        <option value="Dave">Dave</option>
+    </select>'s wallet
+    <button id="sendBobBtn">Send</button>
+    </div>
+     <div class="account"> Wallet: <span id="walletBobCreated">No wallet yet</span> </div>
+     <div class="account"> Daily Payments: <span id="dailyPaymentsBob"> </span> </div>
+     <div class="account"> Whitelisted? <span id="whitelistedBob"> </span> </div>
+     <div class="account"> Withdraw <input name="amountBobWithdraw" type="number" placeholder="0" min="1" /> ether
+     <button id="withdrawBobBtn">Withdraw</button></div>
+     <h4>Charlie</h4>
+     <div class="account"> Balance account: <span id="balanceCharlie">Loading...</span> ether</div>
+     <div class=account>Send <input name="amountCharlieSend" type="number" placeholder="0" min="1" /> ether to 
+        <select id="sendCharlieTo">
+        <option value="Alice">Alice</option>
+        <option value="Bob">Bob</option>
+        <option value="Charlie">Charlie</option>
+        <option value="Dave">Dave</option>
+    </select>'s wallet
+    <button id="sendCharlieBtn">Send</button>
+    </div>
+     <div class="account"> Wallet: <span id="walletCharlieCreated">No wallet yet</span> </div>
+     <div class="account"> Daily Payments: <span id="dailyPaymentsCharlie"> </span> </div>
+     <div class="account"> Whitelisted? <span id="whitelistedCharlie"> </span> </div>
+     <div class="account"> Withdraw <input name="amountCharlieWithdraw" type="number" placeholder="0" min="1" /> ether
+     <button id="withdrawCharlieBtn">Withdraw</button></div>
+     <h4>Dave</h4>
+     <div class="account"> Balance account: <span id="balanceDave">Loading...</span> ether</div>
+     <div class=account>Send <input name="amountDaveSend" type="number" placeholder="0" min="1" /> ether to 
+        <select id="sendDaveTo">
+        <option value="Alice">Alice</option>
+        <option value="Bob">Bob</option>
+        <option value="Charlie">Charlie</option>
+        <option value="Dave">Dave</option>
+    </select>'s wallet
+    <button id="sendDaveBtn">Send</button>
+    </div>
+     <div class="account"> Wallet: <span id="walletDaveCreated">No wallet yet</span> </div>
+     <div class="account"> Daily Payments: <span id="dailyPaymentsDave"> </span> </div>
+     <div class="account"> Whitelisted? <span id="whitelistedDave"> </span> </div>
+     <div class="account"> Withdraw <input name="amountDaveWithdraw" type="number" placeholder="0" min="1" /> ether
+    <button id="withdrawDaveBtn">Withdraw</button></div>
+    </body>
+</html>
