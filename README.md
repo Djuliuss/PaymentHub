@@ -1,5 +1,3 @@
-# PaymentHub
-
 # Payment Hub
 
 This repository contains an Ethereum implementation to run a Payment Hub that features a daily limit for customer payments and a whitelist of customers who are allow to send ether with no limitations.
