@@ -35,6 +35,7 @@ Once all the packages have been installed, follow these steps, (or run script `.
  1. `./node_modules/.bin/truffle migrate --reset`
  2. `./node_modules/.bin/webpack-cli --mode development`
  3. `php -S 0.0.0.0:8000 -t ./build/app`
- 4. open the browser at `localhost:8000`
+ 
+ And then, open the browser at `localhost:8000`
 
 
