@@ -20,12 +20,12 @@ The implementation features two main artifacts written in Solidity: Wallet.sol a
  4. `setDailyLimit()`: to modify the daily limit for customer payments.
  5. `processPayment()`: customers will use this function to send payments to other customers of the platform. The function will validate if the customer can receive the payment with the current limit and whitelist settings and if that is not the case the payment will be rejected. Otherwise, the ether will be transferred to the payee wallet.
  
-## Tests
+# Tests
 
 The folder `tests` contain a batch of scripts that can be run with `Truffle`. 
 To execute the tests, simply run `truffle test`on a machine running with `ganache` or another Ethereum development network on node `8545`.
 
-## Dapp
+# Dapp
 
 The project also contains a  simple dapp that can be run from the browser which allows to experiment with the functionality of the platform.
 To run the dapp, first run `npm install`.
