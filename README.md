@@ -10,9 +10,10 @@ Both administrator and customers will be identified by an Ethereum Externally Ow
 
 # Contracts
 The implementation features two main artifacts written in Solidity: Wallet.sol and PaymentHub.sol. 
-	- **Wallet.sol**, is the contract that will be owned by the customers of the platform. It will store ether coming from other customers payments. The function `withdraw()`can be used to withdraw ether from the wallet. 
-	- **PaymentHub.sol** is the contract that will be owned by the administrator of the platform, featuring the following functions:
-		
+
+ - **Wallet.sol**, is the contract that will be owned by the customers of the platform. It will store ether coming from other customers payments. The function `withdraw()`can be used to withdraw ether from the wallet. 
+ - **PaymentHub.sol** is the contract that will be owned by the administrator of the platform, featuring the following functions:
+ 
  1. `createWallet()` : to create a new wallet for a customer of the platform, which will be used to collect the ether coming from the payments of other customers.
  2. `addWalletWhitelist()` : to include a customer into the Whitelist that will prevent them to have any daily limitations for receiving payments.
  3. `removeWalletWhiteList()`: to remove a customer from the Whitelist.
