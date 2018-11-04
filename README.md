@@ -24,6 +24,7 @@ The implementation features two main artifacts written in Solidity: Wallet.sol a
 
 The folder `tests` contain a batch of scripts that can be run with `Truffle`. 
 To execute the tests, simply run `truffle test`on a machine running with `ganache` or another Ethereum development network on node `8545`.
+If using `ganache-cli`, you need the following flags when launching it: `ganache-cli -l 15000000 --allowUnlimitedCtractSize`
 
 # Dapp
 
