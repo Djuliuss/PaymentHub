@@ -1,5 +1,5 @@
 {
-  "name": "Payment Hub",
+  "name": "PaymentHub",
   "version": "1.0.0",
   "description": "",
   "main": "app/js/app.js",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Djuliuss/DailyLimit.git"
+    "url": "git+https://github.com/Djuliuss/PaymentHub.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Djuliuss/DailyLimit/issues"
+    "url": "https://github.com/Djuliuss/PaymentHub/issues"
   },
-  "homepage": "https://github.com/Djuliuss/DailyLimit#readme",
+  "homepage": "https://github.com/Djuliuss/PaymentHub#readme",
   "devDependencies": {
     "file-loader": "^2.0.0",
     "truffle": "^4.1.13",
